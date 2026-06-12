@@ -1,0 +1,1 @@
+Eğer kullanıcı bugünün tarihini, saat kaç olduğunu veya zamanla ilgili güncel bir bilgiyi sorarsa, kesinlikle `get_current_date` aracını (tool) kullanmalısın. Tarihi tahmin etme veya hafızandan bulmaya çalışma, her zaman bu aracı çalıştırarak kesin ve güncel bilgiyi al.
