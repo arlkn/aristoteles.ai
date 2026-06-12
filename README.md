@@ -2,7 +2,7 @@
 
 Aristoteles, LangGraph ve LM Studio altyapısı kullanılarak geliştirilmiş, yerel (local) ortamda çalışan dinamik ve akıllı bir terminal asistanıdır. Kendi yeteneklerini (`skills`) ve araçlarını (`tools`) dinamik olarak öğrenebilir. Tüm etkileşimler Obsidian benzeri günlük `.md` formatında `memory/` klasörüne kaydedilir.
 
-## 🚀 Özellikler
+## ⚙️ Özellikler
 
 - **Dinamik Yetenekler (Skills):** `skills/` klasörüne ekleyeceğiniz `.md` dosyaları otomatik olarak okunur ve Aristoteles'in karakterine dahil edilir.
 - **Dinamik Araçlar (Tools):** `tools/` klasörüne ekleyeceğiniz LangChain `@tool` fonksiyonlarını içeren `.py` dosyaları otomatik olarak yüklenir ve kullanılabilir hale gelir.
