@@ -41,11 +41,15 @@ Aristoteles draws its intelligence from LM Studio running on your computer.
 
 ### 3. Setting Up the Project
 
-Open your terminal (CMD or PowerShell) and navigate to the project directory:
+Open your terminal and navigate to the project directory:
 
-```bash
-# Navigate to the project directory
-cd path/to/aristoteles.ai
+# Clone the repository
+git clone [https://github.com/arlkn/aristoteles.ai.git](https://github.com/arlkn/aristoteles.ai.git)
+cd aristoteles.ai
+
+# Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate
 
 # Install the required Python libraries
 pip install -r requirements.txt
