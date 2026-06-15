@@ -54,8 +54,10 @@ source venv/bin/activate
 
 # Install the required Python libraries
 pip install -r requirements.txt
+```
+---
 
-4. Awaken Aristoteles!
+### 4. Awaken Aristoteles!
 Once everything is ready, run the following command in your terminal:
 
 Bash
