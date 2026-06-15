@@ -63,8 +63,9 @@ Once everything is ready, run the following command in your terminal:
 Bash
 python main.py
 Aristoteles will display a brief loading screen upon startup, clear the terminal, and greet you with the chat panel.
+---
 
-🧩 Tool and Skill Development
+## 🧩 Tool and Skill Development
 Adding a New Skill
 Create a file named my_rule.md inside the skills/ directory and write your instructions in plain text. Aristoteles will immediately adopt it.
 
