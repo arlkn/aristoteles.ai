@@ -43,6 +43,7 @@ Aristoteles draws its intelligence from LM Studio running on your computer.
 
 Open your terminal and navigate to the project directory:
 
+```bash
 # Clone the repository
 git clone [https://github.com/arlkn/aristoteles.ai.git](https://github.com/arlkn/aristoteles.ai.git)
 cd aristoteles.ai
@@ -53,6 +54,7 @@ source venv/bin/activate
 
 # Install the required Python libraries
 pip install -r requirements.txt
+
 4. Awaken Aristoteles!
 Once everything is ready, run the following command in your terminal:
 
