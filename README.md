@@ -83,4 +83,15 @@ def get_weather(city: str) -> str:
     return f"The weather in {city} is currently wonderful!"
 EOF
 ```
+## 🪟 Powershell Command: 
+```
+Set-Content -Path "tools/weather.py" -Value @'
+from langchain_core.tools import tool
+
+@tool
+def get_weather(city: str) -> str:
+    """Fetches the weather forecast for the specified city."""
+    return f"The weather in {city} is currently wonderful!"
+'@
+```
 ## See you around, may the thoughts be with you! 🦉
