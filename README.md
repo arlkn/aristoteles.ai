@@ -62,6 +62,7 @@ Once everything is ready, run the following command in your terminal:
 
 Bash
 python main.py
+
 Aristoteles will display a brief loading screen upon startup, clear the terminal, and greet you with the chat panel.
 
 ## 🧩 Tool and Skill Development
