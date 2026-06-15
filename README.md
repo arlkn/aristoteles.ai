@@ -66,20 +66,21 @@ python main.py
 
 ```
  ## 🧩 Tool and Skill Development
-Adding a New Skill
-Create a file named my_rule.md inside the skills/ directory and write your instructions in plain text. Aristoteles will immediately adopt it.
 
-Adding a New Tool
-Create a file named weather.py inside the tools/ directory as an example:
+### Adding a New Skill
+Create a file named `my_rule.md` inside the `skills/` directory and write your instructions in plain text. Aristoteles will immediately adopt it.
 
-Python
+### Adding a New Tool
+Run the following Bash command in your terminal to create an example weather tool inside the `tools/` directory:
+
+```bash
+cat << 'EOF' > tools/weather.py
 from langchain_core.tools import tool
 
 @tool
 def get_weather(city: str) -> str:
     """Fetches the weather forecast for the specified city."""
     return f"The weather in {city} is currently wonderful!"
-When you restart the application, Aristoteles will have acquired the ability to check the weather!
-
-## See you around, may the thoughts be with you! 🦉
+EOF
 ```
+## See you around, may the thoughts be with you! 🦉
